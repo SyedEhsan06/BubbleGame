@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri,
+        'Trebuchet MS',
+        sans-serif;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    background-color: rgba(19, 19, 190, 0.678);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: rgb(235, 150, 150);
+    width: 80%;
+    height: 80%;
+}
+
+.panelTop {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(53, 53, 165);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25%;
+    color: wheat;
+}
+.panelBottom {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    color: darkgreen;
+    padding: 10px;
+    justify-content: center;
+    height: calc(100% - 80px);
+    background-color: #7dc2ff;
+    gap: 20px;
+}
+.box {
+    text-align: center;
+    width: 50px;
+    color: #01a39e;
+    font-weight: 800;
+    padding: 8px;
+    background-color: antiquewhite;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+.elem {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.roundBubble {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-weight: 800;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    color: white;
+    font-size: x-large;
+    background-color: #2e9ea9;
+    border-radius: 50%;
+}
+.roundBubble:hover {
+    background-color: #6448df;
+    transition: 0.2s ease;
+}
+.restartBtn {
+    border: inherit;
+    color: inherit;
+    background: indianred;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
